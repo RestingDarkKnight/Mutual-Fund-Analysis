@@ -1,6 +1,6 @@
-# 📊 Mutual Fund Analyzer — Indian Markets
+# 📊 Mutual Fund Analysis Project:
 
-A production-grade Python system that analyzes Indian mutual funds across **15 quantitative parameters** (performance, cost, risk), learns relationships between those parameters and forward performance using ML, and generates **five portfolio recommendations** tailored to user risk appetite and horizon.
+A production-grade Python system that analyzes Indian mutual funds across **15 quantitative parameters** categorized into 3 types (performance, cost, risk), learns relationships between those parameters and forward performance using ML, and generates **five portfolio recommendations** tailored to user risk appetite and horizon.
 
 Runs end-to-end with a single command. Works online (live AMFI + Yahoo Finance) or fully offline (deterministic synthetic data) so the pipeline never breaks.
 
@@ -80,7 +80,7 @@ User Input (amount, horizon, risk)
 | **Std Deviation** | Annualized σ of daily returns |
 | **Value at Risk (VaR)** | 95% historical + parametric (1-day) |
 
-All metrics are computed on daily log-returns with 252-day annualization and a 6.5% risk-free rate (Indian 10-year G-Sec average).
+All metrics are computed on daily log-returns with 252-day annualization and a 6.5% risk-free rate (Indian 10-year Govt.-Securities average).
 
 ---
 
