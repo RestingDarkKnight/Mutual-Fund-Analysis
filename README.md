@@ -1,4 +1,4 @@
-# 📊 Mutual Fund Analysis Project:
+# Mutual Fund Analysis Project:
 
 A production-grade Python system that analyzes Indian mutual funds across **15 quantitative parameters** categorized into 3 types (performance, cost, risk), learns relationships between those parameters and forward performance using ML, and generates **five portfolio recommendations** tailored to user risk appetite and horizon.
 
@@ -6,7 +6,7 @@ Runs end-to-end with a single command. Works online (live AMFI + Yahoo Finance) 
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Indian retail investors face **1,400+ open-ended mutual fund schemes** across a dozen categories. Choosing the right mix requires reasoning simultaneously about:
 
@@ -19,7 +19,7 @@ This project automates that reasoning. It ingests NAV history, computes the 15 p
 
 ---
 
-## 🧱 Architecture
+## Workflow Architecture
 
 ```
 User Input (amount, horizon, risk)
@@ -51,7 +51,7 @@ User Input (amount, horizon, risk)
 
 ---
 
-## 📊 The 15 Parameters
+## The 15 Parameters: (Thanks!! Zero 1 School)
 
 ### Performance (7)
 | Metric | Definition |
@@ -68,8 +68,8 @@ User Input (amount, horizon, risk)
 | Metric | Source |
 |---|---|
 | **Turnover Ratio** | Category proxy (0.25 index → 1.30 sectoral) |
-| **TER** | AMFI scheme disclosure |
-| **Management Fee** | AMFI |
+| **Total Expense Ratio** | AMFI scheme disclosure |
+| **Management Costs** | AMFI |
 | **Transaction Cost** | AMFI |
 | **Load Fees** | Exit load from scheme info doc |
 
@@ -84,7 +84,7 @@ All metrics are computed on daily log-returns with 252-day annualization and a 6
 
 ---
 
-## 📂 Fund Universe (36 schemes)
+## Selected Funds for MF Portfolio (36 schemes)
 
 | Category | Examples |
 |---|---|
@@ -106,7 +106,7 @@ The universe CSV (`data/raw/fund_universe.csv`) ships with AMFI scheme codes, TE
 
 ---
 
-## 🚀 Installation & Run (one command)
+## Installation & Run (one command)
 
 ```bash
 git clone <repo-url>
@@ -127,7 +127,7 @@ python main.py --amount 1000000 --horizon 7 --risk Medium
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Interactive
 
@@ -173,7 +173,7 @@ Five numbered notebooks walk through every stage:
 
 ---
 
-## 📤 Example output
+## Example output
 
 ```
 ════════════════════════════════════════════════════════════════════════════════
@@ -213,7 +213,7 @@ Five portfolios are always produced:
 
 ---
 
-## 🧠 Modeling Methodology
+## Modeling Methodology
 
 **Feature engineering** — every metric is computed from raw NAV and benchmark series (not scraped from aggregators), which means the numbers update automatically as new data arrives. Metrics are also z-scored *within category* so a multi-cap is compared to multi-caps, not to liquid funds.
 
@@ -229,7 +229,7 @@ Five portfolios are always produced:
 
 ---
 
-## 🗂️ Repository structure
+## Repository structure
 
 ```
 mutual-fund-analyzer/
@@ -267,7 +267,7 @@ mutual-fund-analyzer/
 
 ---
 
-## 🔬 Tests
+## Tests
 
 ```bash
 python -m unittest tests.test_metrics -v
@@ -282,7 +282,7 @@ Sanity checks:
 
 ---
 
-## 📡 Data Sources
+## Data Sources
 
 | Source | What we use |
 |---|---|
@@ -294,7 +294,7 @@ When the network is unavailable or AMFI throttles, the loader falls back to a **
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This system is for **educational and research purposes only**. It is not investment advice. Past performance does not guarantee future returns. Consult a SEBI-registered financial advisor before making investment decisions. The authors and contributors accept no liability for losses arising from use of this software.
 
