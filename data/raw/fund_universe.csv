@@ -1,0 +1,38 @@
+scheme_code,scheme_name,category,sub_category,benchmark,ter,aum_cr,management_fee,transaction_cost,exit_load,inception_date,amc
+120716,UTI Nifty 50 Index Fund - Direct Growth,Index,Nifty 50,^NSEI,0.21,18500,0.15,0.02,0.00,2013-01-01,UTI
+118989,HDFC Index Fund - Nifty 50 Plan - Direct Growth,Index,Nifty 50,^NSEI,0.20,13200,0.14,0.02,0.00,2013-01-01,HDFC
+120505,ICICI Prudential Nifty 50 Index Fund - Direct Growth,Index,Nifty 50,^NSEI,0.17,9800,0.12,0.02,0.00,2013-02-01,ICICI
+149116,ICICI Prudential Nifty Next 50 Index Fund - Direct Growth,Index,Nifty Next 50,^NSMIDCP,0.30,5200,0.22,0.02,0.25,2018-06-01,ICICI
+119807,SBI Bluechip Fund - Direct Growth,Equity,Large Cap,^NSEI,0.83,48000,0.70,0.05,1.00,2013-01-01,SBI
+120586,ICICI Prudential Bluechip Fund - Direct Growth,Equity,Large Cap,^NSEI,0.85,58000,0.72,0.05,1.00,2013-01-01,ICICI
+120465,Axis Bluechip Fund - Direct Growth,Equity,Large Cap,^NSEI,0.66,38000,0.55,0.04,1.00,2013-01-01,Axis
+118834,Mirae Asset Large Cap Fund - Direct Growth,Equity,Large Cap,^NSEI,0.55,38500,0.45,0.04,1.00,2013-04-01,Mirae
+118551,Axis Midcap Fund - Direct Growth,Equity,Mid Cap,^NSMIDCP,0.53,25800,0.44,0.05,1.00,2013-01-01,Axis
+112090,Kotak Emerging Equity Fund - Direct Growth,Equity,Mid Cap,^NSMIDCP,0.53,42500,0.44,0.05,1.00,2013-01-01,Kotak
+118991,HDFC Mid-Cap Opportunities Fund - Direct Growth,Equity,Mid Cap,^NSMIDCP,0.77,55800,0.66,0.06,1.00,2013-01-01,HDFC
+113177,Nippon India Small Cap Fund - Direct Growth,Equity,Small Cap,NIFTY_SMALLCAP,0.73,54200,0.62,0.07,1.00,2013-01-01,Nippon
+125354,SBI Small Cap Fund - Direct Growth,Equity,Small Cap,NIFTY_SMALLCAP,0.65,27800,0.55,0.06,1.00,2013-09-01,SBI
+122639,Parag Parikh Flexi Cap Fund - Direct Growth,Equity,Flexi Cap,^NSEI,0.58,72000,0.48,0.05,2.00,2013-05-01,PPFAS
+118955,HDFC Flexi Cap Fund - Direct Growth,Equity,Flexi Cap,^NSEI,0.72,54000,0.60,0.05,1.00,2013-01-01,HDFC
+112038,Kotak Flexicap Fund - Direct Growth,Equity,Flexi Cap,^NSEI,0.55,47800,0.45,0.05,1.00,2013-01-01,Kotak
+118528,Nippon India Multi Cap Fund - Direct Growth,Equity,Multi Cap,^NSEI,0.77,28500,0.65,0.06,1.00,2013-01-01,Nippon
+147558,Mahindra Manulife Multi Cap Fund - Direct Growth,Equity,Multi Cap,^NSEI,0.45,4200,0.35,0.04,1.00,2016-05-01,Mahindra
+128320,Motilal Oswal S&P 500 Index Fund - Direct Growth,International,US Equity,^GSPC,0.50,3800,0.40,0.05,1.00,2020-04-01,Motilal
+120586_2,ICICI Prudential US Bluechip Equity Fund - Direct Growth,International,US Equity,^GSPC,1.08,3200,0.90,0.08,1.00,2013-01-01,ICICI
+118700,SBI Liquid Fund - Direct Growth,Debt,Liquid,CRISIL_LIQUID,0.19,65000,0.14,0.01,0.00,2013-01-01,SBI
+118624,HDFC Liquid Fund - Direct Growth,Debt,Liquid,CRISIL_LIQUID,0.20,57000,0.15,0.01,0.00,2013-01-01,HDFC
+120268,ICICI Prudential Liquid Fund - Direct Growth,Debt,Liquid,CRISIL_LIQUID,0.20,48000,0.15,0.01,0.00,2013-01-01,ICICI
+118560,HDFC Short Term Debt Fund - Direct Growth,Debt,Short Duration,CRISIL_SHORT_TERM,0.40,14500,0.32,0.02,0.00,2013-01-01,HDFC
+120180,ICICI Prudential Short Term Fund - Direct Growth,Debt,Short Duration,CRISIL_SHORT_TERM,0.45,18200,0.36,0.02,0.00,2013-01-01,ICICI
+118473,SBI Magnum Income Fund - Direct Growth,Debt,Medium to Long Duration,CRISIL_MEDIUM_LONG,0.82,1800,0.70,0.03,1.00,2013-01-01,SBI
+120339,ICICI Prudential Long Term Bond Fund - Direct Growth,Debt,Long Duration,CRISIL_LONG_TERM,0.65,720,0.55,0.03,0.00,2013-01-01,ICICI
+119551,SBI Gold Fund - Direct Growth,Commodity,Gold,GOLD,0.42,2200,0.35,0.02,1.00,2013-01-01,SBI
+119063,Nippon India Gold Savings Fund - Direct Growth,Commodity,Gold,GOLD,0.33,2850,0.28,0.02,1.00,2013-01-01,Nippon
+148699,ICICI Prudential Silver ETF FoF - Direct Growth,Commodity,Silver,SILVER,0.45,1800,0.38,0.02,1.00,2022-02-01,ICICI
+119775,SBI PSU Fund - Direct Growth,Thematic,PSU,^CNXPSU,1.08,3800,0.90,0.07,1.00,2013-01-01,SBI
+125503,Invesco India PSU Equity Fund - Direct Growth,Thematic,PSU,^CNXPSU,1.05,1400,0.88,0.07,1.00,2013-09-01,Invesco
+120177,ICICI Prudential Infrastructure Fund - Direct Growth,Thematic,Infrastructure,^CNXINFRA,1.15,4200,0.95,0.08,1.00,2013-01-01,ICICI
+118541,Nippon India Power & Infra Fund - Direct Growth,Thematic,Infrastructure,^CNXINFRA,1.05,6800,0.88,0.08,1.00,2013-01-01,Nippon
+119250,SBI Banking & Financial Services Fund - Direct Growth,Sectoral,Banking,^NSEBANK,0.78,5400,0.65,0.06,1.00,2015-02-01,SBI
+120588,ICICI Prudential Pharma Healthcare Fund - Direct Growth,Sectoral,Pharma,^CNXPHARMA,1.18,3200,0.98,0.08,1.00,2018-07-01,ICICI
+119609,Nippon India Pharma Fund - Direct Growth,Sectoral,Pharma,^CNXPHARMA,0.98,7200,0.82,0.07,1.00,2013-01-01,Nippon
